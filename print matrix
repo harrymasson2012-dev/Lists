@@ -1,0 +1,6 @@
+countries = [["England","USA","Japan"],["London","Washington","Tokyo"],["Europe","North America","Asia"]]
+for i in range(len(countries)):
+    for k in range(len(countries[0])):
+            print(countries[i][k],end=" ")
+    print()
+    
