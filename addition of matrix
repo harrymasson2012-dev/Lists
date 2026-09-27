@@ -2,5 +2,7 @@ numbers = [[1,1,1],[2,2,2],[3,3,3]]
 numbers2 = [[1,1,1],[2,2,2],[3,3,3]]
 matrix = [[0,0,0],[0,0,0],[0,0,0]]
 for row in range(len(numbers)):
-    for col in range(numbers[0]):
-        matrix[row][col]=numbers[]
+    for col in range(len(numbers[0])):
+        matrix[row][col]=numbers[row][col]+numbers2[row][col]
+        print(matrix[row][col],end=" ")
+    print()
